@@ -10,6 +10,6 @@ def sum_distance(a=int,b=int):
   int_first,int_second=check_and_swap(a,b)
   return sum(range(int_first,int_second+1))
 
-x=int(input("Введите число 1: "))
-y=int(input("Введите число 2: "))
-print("Сумма последовательности: ",sum_distance(x,y))
+x=int(input("Введите первое число: "))
+y=int(input("Введите второе число: "))
+print("Сумма последовательности двух чисел: ",sum_distance(x,y))
